@@ -6,6 +6,16 @@
         "modules": false
       }
     ],
-    "react"
+    "react",
+    "es2015",
+    "stage-0",
+    "stage-1"
+  ],
+  "plugins": [
+    "transform-class-properties",
+    ["transform-runtime", {
+      "polyfill": false,
+      "regenerator": true
+    }]
   ]
 }
