@@ -1,6 +1,6 @@
 # Rails-5.1 React boilerplate
 A boilerplate built with rails 5.1, react and redux
- * don't forget to install dependencies with 'yarn install'
+ * don't forget to install dependencies with './bin/rails webpacker:install:react' and 'yarn install'
 
 # Libs used for development:
 - asyncawait: '1.0.6'
